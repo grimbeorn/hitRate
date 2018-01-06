@@ -1,0 +1,54 @@
+/*------------------- GENERAL ---------------------*/
+/*-------------------------------------------------*/
+
+/*------------------- BODY ------------------------*/
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 17px;
+    color: rgb(10, 10, 34);
+}
+/*-------------------------------------------------*/
+
+/*------------------- CABECERA --------------------*/
+div#espacio {
+    height: 190px;
+}
+section#cabecera {
+    margin-top: 5px;
+}
+/*-------------------------------------------------*/
+
+/*------------------- CUERPO ----------------------*/
+.btn {
+    height: 46px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    display: list-item;
+    margin: auto;
+    margin-top: 10px;
+}
+div#btns {
+    margin: 1px 0 0 0;
+}
+div#cs {
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+a#seguimiento {
+    color: rgb(10, 10, 34);
+    margin-left: 3px;
+}
+/*-------------------------------------------------*/
+
+/*------------------- PIE -------------------------*/
+div#footer {
+    width: 100%;
+    height:20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    position: absolute;
+    bottom: 0px;
+}
+/*-------------------------------------------------*/

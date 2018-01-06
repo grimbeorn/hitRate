@@ -1,0 +1,110 @@
+/*------------------- GENERAL ---------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*-------------------------------------------------*/
+
+/*------------------- BODY ------------------------*/
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 17px;
+    color: rgb(0, 4, 34);
+}
+/*-------------------------------------------------*/
+
+/*------------------- LIENZO ----------------------*/
+div#lienzo {
+    margin: auto; 
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    /*background-color: cyan;*/
+}
+/*-------------------------------------------------*/
+
+/*------------------- CABECERA --------------------*/
+div#cabecera{
+    width: 100%;
+    height: 80px;
+    /*background-color: red;*/
+}
+p#idUser {
+    width: 50%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    float: left;
+    /*background-color: orange;*/
+}
+
+img#logo {
+    width: 300px;
+    height: 60px;
+    float: right;
+    /*background-color: salmon;*/
+}
+/*-------------------------------------------------*/
+
+/*------------------- CUERPO ----------------------*/
+div#cuerpo {
+    width: 100%;
+    height: 580px;
+    /*background-color: purple;*/
+}
+div#form {
+    width: 50%;
+    height: 580px;
+    display: inline-block;
+    /*background-color: yellow;*/
+}
+div#btns {
+    float: right;
+    width: 50%;
+    height: 580px;
+    /*background-color: pink;*/
+}
+div#botones {
+    width: 160px;
+    height: 280px;
+    margin: auto;
+    float: left;
+    margin-top: 24%;
+    /*background-color: green;*/
+}
+fieldset#formulario {
+    width: 250px;
+    height: 130px;
+    margin: auto;
+    margin-top: 25%;
+    float: right;
+    /*background-color: orange;*/
+}
+.btn {
+    height: 30px;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+    display: list-item;
+    margin: auto;
+    margin-top: 10px;
+}
+a#cerrarSesion {
+    margin-left: 20%;
+}
+.rdbtn {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+/*-------------------------------------------------*/
+
+/*------------------- PIE -------------------------*/
+div#pie {
+    width: 960px;
+    height:20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    position: absolute;
+    bottom: 0px;
+    /*background-color: green;*/
+}
